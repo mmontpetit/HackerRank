@@ -12,5 +12,5 @@ def plusMinus(arr):
         else:
             negative+=1
     print(positive/len(arr))
-    print(zeros/len(arr))
     print(negative/len(arr))
+    print(zeros/len(arr))
