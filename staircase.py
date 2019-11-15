@@ -5,4 +5,11 @@ def staircase(n):
     for i in range(n):
         symbols=i+1
         spaces=symbols*image
-        print( spaces.rjust(n))
+        print(spaces.rjust(n))
+
+
+or
+
+def staircase(n):
+    for i in range(1, n + 1):
+       print(' ' * (n - i) + '#' * i)
