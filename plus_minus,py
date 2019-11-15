@@ -1,0 +1,16 @@
+def plusMinus(arr):
+    # Given an array of integers, calculate the fractions of its elements that are positive, negative, 
+    # and are zeros. Print the decimal value of each fraction on a new line.
+    positive=0
+    negative=0
+    zeros=0
+    for i in range(len(arr)):
+        if(arr[i]>0):
+            positive+=1
+        elif(arr[i]==0):
+            zeros+=1
+        else:
+            negative+=1
+    print(positive/len(arr))
+    print(zeros/len(arr))
+    print(negative/len(arr))
