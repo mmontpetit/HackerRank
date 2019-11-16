@@ -5,7 +5,7 @@
 def birthdayCakeCandles(ar):
         birthdayCakeCandles = 0
         CandlesMax = max(ar)
-        for i in ar:
+        for i in range(len(ar)):
             if(ar[i]==CandlesMax):
                 birthdayCakeCandles+=1
         
